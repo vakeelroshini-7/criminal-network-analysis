@@ -1,0 +1,12 @@
+# Keep local investigative imports and browser exports out of Git.
+*.csv
+*.json
+!package.json
+!package-lock.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp
